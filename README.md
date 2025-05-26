@@ -23,6 +23,6 @@ and we get warning
 ```
 warning duplicate member name 'unity_0_cxx.o' from '../test_proj/.build/common/build/lib_wrapper.build/Debug/Objects-normal/arm64/unity_0_cxx.o(unity_0_cxx.o)' and '../test_proj/.build/common/build/mylib.build/Debug/Objects-normal/arm64/unity_0_cxx.o(unity_0_cxx.o)'
 ```
-If try set breakpoint in IDE to mylib/mylib.cpp:5, debugger ignore it.
+If try set breakpoint in IDE to `mylib/mylib.cpp:5`, debugger ignore it.
 
 If change object to *static/shared* lib or disable *unity build* the problem disappears.
