@@ -1,6 +1,6 @@
 Minimal example for reproduce problem.
 
-The problem is the duplicate characters when using Unity Build with XCode generator.
+The problem is the duplicate object files when using Unity Build with XCode generator.
 In this case all sources in unity_0_cxx.o can lose debug symbols.
 
 Steps for reproduce:
